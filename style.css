@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#container{   
+    background-color: rgb(202, 2, 2);
+    border: solid whitesmoke 5px;
+    border-radius: 4px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 86%;
+    max-width: 300px;
+    height: 90%;
+    max-height: 800px;
+    
+}
+h1{
+    text-align: center;
+    
+    font-size: 3em;
+    font-weight: bolder;
+    color:rgb(255, 241, 50);
+    text-shadow:  2px 4px rgb(31, 31, 255);
+}
+#pkmn-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pkmn-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 86%;
+    height: 2.5rem;
+    font-size: 2em;
+    font-weight: bolder;
+}
+#sprite-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(150, 150, 150);
+    border: solid whitesmoke 5px;
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 86%;
+    height: 30%;
+}
+#pkmn-type{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(150, 150, 150);
+    border: solid whitesmoke 5px;
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 86%;
+    height: 3em;
+    
+}
+.type{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 4px;
+    width: 40%;
+}
+
+#pkmn-stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(150, 150, 150);
+    border: solid whitesmoke 5px;
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 86%;
+    height: 30%;
+}
+#pkmn-stats h2{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: bolder;    
+}
+#stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: bolder;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Pokémon</h1>
+        <form action="" onsubmit="searchPokemon(event)" id="pkmn-search">
+            <input type="text" name="pokemon" autocomplete="off" id="pkmn-input">           
+        </form>
+        
+        <div id="pkmn-info">
+            <div id="pkmn-index"></div>
+            <div id="pkmn-name"></div>
+        </div>
+        <div id="sprite-container">
+            <img id="pkmn-sprite">
+        </div>
+        <div id="pkmn-type">           
+            
+        </div>
+        <div id="pkmn-stats">
+            <h2>Stats</h2>
+            <div id="stats">
+                <div id="HP"></div>
+                <div id="ATK"></div>
+                <div id="DEF"></div>
+                <div id="SP-ATK"></div>
+                <div id="SP-DEF"></div>
+                <div id="SPD"></div>
+            </div>
+        </div>       
+    </div>
+    <script src="/code.js"></script>
+</body>
+</html>
