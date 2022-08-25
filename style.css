@@ -6,6 +6,7 @@
 }
 body{
     height: 100vh;
+    min-height: 660px;
     background-color: lightblue;
     display: flex;
     flex-direction: column;
