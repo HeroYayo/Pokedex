@@ -1,3 +1,5 @@
+var viewport = document.querySelector("meta[name=viewport]");
+viewport.setAttribute("content", viewport.content + ", height=" + window.innerHeight);
 const pkmnName = document.querySelector('#pkmn-name');
 const pkmnIndex = document.querySelector('#pkmn-index');
 const pkmnImg = document.querySelector('#pkmn-sprite');
