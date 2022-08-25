@@ -22,8 +22,10 @@ body{
     align-items: center;
     width: 86%;
     max-width: 300px;
+    min-width: 360px;
     height: 90%;
-    max-height: 800px;
+    max-height: 700px;
+    min-height: 590px
     
 }
 h1{
